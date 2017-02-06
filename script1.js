@@ -1,7 +1,6 @@
 
 alert("hello")
 
-
 //Takes farenheit temp argument
 function fahToCel(fahrenheit)
 {
@@ -29,7 +28,7 @@ var celsiusToF = (celTemp * 9)/5 + 32;
 // rounds to the nearest whole number
 var roundNum = Math.round(celsiusToF);
 
-//concatenates strings and prints to console for user 
+//concatenates strings and prints to console for user
 var message = celTemp+' degrees celsius is ' + roundNum + ' degrees fahrenheit';
   console.log(message);
 
