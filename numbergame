@@ -1,0 +1,14 @@
+
+
+
+function guessNumberGame(){
+var myNumber = Math.floor(Math.random() * (10-1)+1);
+var userGuess = prompt("guess a number between 1 and 10");
+while (userGuess != myNumber) {
+  if(userGuess < myNumber) {
+    userGuess = prompt("You guessed too low! Guess again.");
+  } else if (userGuess > myNumber){
+    userGuess = prompt("You guessed too high! Guess again.");
+  };
+}; alert("You guessed right!")
+};
